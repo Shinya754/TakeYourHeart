@@ -1,0 +1,83 @@
+﻿public enum EventDefine
+{
+    Hit,
+    Hit1,
+    Reward1,
+    Hit2,
+    Reward2,
+    Hit3,
+    Reward3,
+    Hold1,
+    Hold2,
+    Hold3,
+    Throw1,
+    Throw2,
+    Throw3,
+    //Debuff
+    Ob1,
+    Ob2,
+    Ob3,
+    //尖刺陷阱
+    St1,
+    St2,
+    St3,
+    //1异常状态
+    Freeze1,
+    SpeedUp1,
+    Freezeoff1,
+    //2异常状态
+    Freeze2,
+    SpeedUp2,
+    Freezeoff2,
+    //3异常状态
+    Freeze3,
+    SpeedUp3,
+    Freezeoff3,
+    //现在是琪亚娜时间！
+    TimeSlow,
+    //接触
+    Contact1,
+    Contact2,
+    Contact3,
+    //玩家间接触
+    PlayerContact1,
+    PlayerContact2,
+    PlayerContact3,
+    //分数事件
+    Goal1plus5,
+    Goal1plus20,
+    Goal1mlu5,
+    Goal1mlu20,
+    //
+    Goal2plus5,
+    Goal2plus20,
+    Goal2mlu5,
+    Goal2mlu20,
+    //
+    Goal3plus5,
+    Goal3plus20,
+    Goal3mlu5,
+    Goal3mlu20,
+    /// <summary>
+    /// 弹幕发射器控制机关
+    /// </summary>
+    Button1Off,
+    Button1ON,
+    Button2Off,
+    Button2ON,
+    Button3Off,
+    Button3ON,
+    Button4Off,
+    Button4ON,
+    //////////////////
+    GetTime2,                  ///!!!!!!
+    ///Heart携带状态
+    P1,
+    P2,
+    P3,
+    /// <summary>
+    /// 
+    /// </summary>
+    GameOver,
+    PlayAgain,
+}
